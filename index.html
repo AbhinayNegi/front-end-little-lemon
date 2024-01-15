@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <!--Nothing is displayed
         Used for meta data not part of content -->
         <title>Little Lemon</title>
@@ -9,12 +10,39 @@
 
     <body>
         <h1>Our Menu</h1>
-        <h2>Falafel</h2>
+        
+        <h2 id="header2">Falafel</h2>
         <p>Chickpea, herbs and spices.</p>
-        <img src="flafel.jpg" width="240" height="135" alt="A flafel">
+        <img class="mold" src="flafel.jpg" width="240" height="135" alt="A flafel">
+        
         <h2>Pasta Salad</h2>
         <p>Lettuce, vegetables and mozzerella.</p>
         <img src="salad.jpeg" width="240" height="135" alt="A salad">
+        
         <a href="location.html">Our location</a>
+
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Falafel</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Pasta Salad</td>
+                <td>$12.00</td>
+            </tr>
+        </table>
+
+        <a href="login.html">Login</a>
     </body>
 </html>

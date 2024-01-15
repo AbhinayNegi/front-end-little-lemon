@@ -1,0 +1,14 @@
+.parent {
+    border: 4px solid red;
+  }
+
+.child {
+    width: 10%;
+    padding: 20px;
+    border: 5px solid green;
+    margin: auto;
+  }
+
+.child p {
+    text-align: center;
+}
